@@ -1,0 +1,6 @@
+|: Andrzej | Kowalski | 435674893 | 6 |
+|: Anna | Lipa | 456183901 | 4 |
+|: Krystyna | Zima | 197290146 | 13 |
+|: Monika | Mroczek | 103278100| 2 |
+|: Bogdan | Sikielski | 912074289 | 1 |
+|: Jadwiga | Smoła | 741890312 | 13 |

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="zamowienia">
+		<centered>1</centered>
+		<size>670,328</size>
+		<bg>#BFA89E</bg>
+		<pos_arg>1</pos_arg>
+		<size_arg>1</size_arg>
+		<object class="wxButton" name="ID_BUTTON1" variable="Button1" member="yes">
+			<label>Wyswietl</label>
+			<pos>48,40</pos>
+			<size>100,35</size>
+			<bg>#EBF5EE</bg>
+			<font>
+				<size>14</size>
+				<style>normal</style>
+				<weight>light</weight>
+				<underlined>0</underlined>
+				<family>roman</family>
+				<face>Bookman Old Style</face>
+			</font>
+			<handler function="OnButton1Click" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxButton" name="ID_BUTTON2" variable="Button2" member="yes">
+			<label>Zrealizuj</label>
+			<pos>48,96</pos>
+			<size>100,35</size>
+			<bg>#EBF5EE</bg>
+			<font>
+				<size>14</size>
+				<style>normal</style>
+				<weight>light</weight>
+				<underlined>0</underlined>
+				<family>roman</family>
+				<face>Bookman Old Style</face>
+			</font>
+			<handler function="OnButton2Click" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL1" variable="TextCtrl1" member="yes">
+			<pos>176,32</pos>
+			<size>464,264</size>
+			<font>
+				<size>14</size>
+				<style>normal</style>
+				<weight>light</weight>
+				<underlined>0</underlined>
+				<family>roman</family>
+				<face>Bookman Old Style</face>
+			</font>
+			<style>wxTE_MULTILINE</style>
+		</object>
+	</object>
+</wxsmith>

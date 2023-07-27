@@ -1,0 +1,16 @@
+|: 1 | Wiedzmin: Pani Jeziora | A. Sapkowski | 65 | fantasy |
+|: 2 | Harry Potter: Komnata Tajemnic | J.K Rowling | 55 | fantasy |
+|: 3 | Przygody Sherlocka Holmesa | A.C Doyle | 70 | kryminalna |
+|: 4 | Lew, czarownica i stara szafa | C.S. Lewis | 45 | fantasy |
+|: 5 | Pinokio | Carlo Collodi | 35 | baśń |
+|: 6 | Kod Leonarda da Vinci | Dan Brown | 68 | kryminalna |
+|: 7 | Gwiazd naszych wina | John Green | 55 | romans |
+|: 8 | Krótka historia czasu | Stephen Hawking | 45 | literatura popularnonaukowa |
+|: 9 | Było minęło. Wspomnienia dziecka-żołnierza | Ishmael Beah | 35 | powieść |
+|: 10 | Oddech, oczy, pamięć | Edwidge Danticat | 61 | powieść |
+|: 11 | Charlie i fabryka czekolady | Roald Dahl | 35 | baśń |
+|: 12 | O czym szumią wierzby | Keneth Grahame | 35 | baśń |
+|: 13 | Najlepsi. Kowboje, którzy polecieli w kosmos | Tom Wolfe | 45 | reportaż |
+|: 14 | Bardzo głodna gąsienica | Eric Carle | 35 | powieść |
+|: 15 | W niewoli uczuć | William Somerset Maugham | 45 | autobiografia |
+

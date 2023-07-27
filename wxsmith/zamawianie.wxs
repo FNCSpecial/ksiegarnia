@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="zamawianie">
+		<size>500,300</size>
+		<bg>#BFA89E</bg>
+		<pos_arg>1</pos_arg>
+		<size_arg>1</size_arg>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL1" variable="TextCtrl1" member="yes">
+			<pos>16,56</pos>
+			<size>150,35</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL2" variable="TextCtrl2" member="yes">
+			<pos>176,56</pos>
+			<size>150,35</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL3" variable="TextCtrl3" member="yes">
+			<pos>336,56</pos>
+			<size>150,35</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL4" variable="TextCtrl4" member="yes">
+			<pos>176,152</pos>
+			<size>150,35</size>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+			<label>Imie</label>
+			<pos>64,24</pos>
+			<font>
+				<size>14</size>
+				<style>normal</style>
+				<weight>light</weight>
+				<underlined>0</underlined>
+				<family>roman</family>
+				<face>Bookman Old Style</face>
+			</font>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText2" member="yes">
+			<label>Nazwisko</label>
+			<pos>208,24</pos>
+			<font>
+				<size>14</size>
+				<style>normal</style>
+				<weight>light</weight>
+				<underlined>0</underlined>
+				<family>roman</family>
+				<face>Bookman Old Style</face>
+			</font>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT3" variable="StaticText3" member="yes">
+			<label>Telefon</label>
+			<pos>384,24</pos>
+			<font>
+				<size>14</size>
+				<style>normal</style>
+				<weight>light</weight>
+				<underlined>0</underlined>
+				<family>roman</family>
+				<face>Bookman Old Style</face>
+			</font>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT4" variable="StaticText4" member="yes">
+			<label>ID__ksiazki</label>
+			<pos>208,120</pos>
+			<font>
+				<size>14</size>
+				<style>normal</style>
+				<weight>light</weight>
+				<underlined>0</underlined>
+				<family>roman</family>
+				<face>Bookman Old Style</face>
+			</font>
+		</object>
+		<object class="wxButton" name="ID_BUTTON1" variable="Button1" member="yes">
+			<label>Zamow</label>
+			<pos>200,216</pos>
+			<size>100,35</size>
+			<bg>#EBF5EE</bg>
+			<font>
+				<size>14</size>
+				<style>normal</style>
+				<weight>light</weight>
+				<underlined>0</underlined>
+				<family>roman</family>
+				<face>Bookman Old Style</face>
+			</font>
+			<handler function="OnButton1Click" entry="EVT_BUTTON" />
+		</object>
+	</object>
+</wxsmith>

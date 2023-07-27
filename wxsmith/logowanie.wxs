@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="logowanie">
+		<centered>1</centered>
+		<size>350,250</size>
+		<bg>#BFA89E</bg>
+		<id_arg>0</id_arg>
+		<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+			<label>Logowanie</label>
+			<pos>128,24</pos>
+			<font>
+				<size>14</size>
+				<style>normal</style>
+				<weight>normal</weight>
+				<underlined>0</underlined>
+				<family>roman</family>
+				<face>Bookman Old Style</face>
+			</font>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText2" member="yes">
+			<label>Login:</label>
+			<pos>32,64</pos>
+			<font>
+				<size>14</size>
+				<style>normal</style>
+				<weight>light</weight>
+				<underlined>0</underlined>
+				<family>roman</family>
+				<face>Bookman Old Style</face>
+			</font>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT3" variable="StaticText3" member="yes">
+			<label>Haslo:</label>
+			<pos>32,112</pos>
+			<font>
+				<size>14</size>
+				<style>normal</style>
+				<weight>light</weight>
+				<underlined>0</underlined>
+				<family>roman</family>
+				<face>Bookman Old Style</face>
+			</font>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL1" variable="TextCtrl1" member="yes">
+			<pos>112,64</pos>
+			<size>130,30</size>
+			<font>
+				<size>14</size>
+				<style>normal</style>
+				<weight>light</weight>
+				<underlined>0</underlined>
+				<family>roman</family>
+				<face>Bookman Old Style</face>
+			</font>
+			<handler function="OnTextCtrl1Text" entry="EVT_TEXT" />
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL2" variable="TextCtrl2" member="yes">
+			<pos>112,112</pos>
+			<size>130,30</size>
+			<font>
+				<size>14</size>
+				<style>normal</style>
+				<weight>light</weight>
+				<underlined>0</underlined>
+				<family>roman</family>
+				<face>Bookman Old Style</face>
+			</font>
+			<style>wxTE_PASSWORD</style>
+			<handler function="OnTextCtrl2Text" entry="EVT_TEXT" />
+		</object>
+		<object class="wxButton" name="ID_BUTTON1" variable="Button1" member="yes">
+			<label>Zaloguj</label>
+			<pos>128,168</pos>
+			<size>100,35</size>
+			<bg>#EBF5EE</bg>
+			<font>
+				<size>14</size>
+				<style>normal</style>
+				<weight>light</weight>
+				<underlined>0</underlined>
+				<family>roman</family>
+				<face>Bookman Old Style</face>
+			</font>
+			<handler function="OnButton1Click" entry="EVT_BUTTON" />
+		</object>
+	</object>
+</wxsmith>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ksiegarnia" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Script file="lib_finder.script" />
+			<Target title="Debug">
+				<Option output="bin/Debug/ksiegarnia" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-D__WXDEBUG__" />
+					<Add directory="C:/wxWidgets-3.0.5/lib/gcc_dll/mswud" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="C:/wxWidgets-3.0.5/lib/gcc_dll/mswud" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="libwxmsw30ud_core.a" />
+					<Add library="libwxbase30ud.a" />
+					<Add library="libwxpngd.a" />
+					<Add library="libwxzlibd.a" />
+					<Add directory="C:/wxWidgets-3.0.5/lib/gcc_dll" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ksiegarnia" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="C:/wxWidgets-3.0.5/lib/gcc_dll/mswu" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="C:/wxWidgets-3.0.5/lib/gcc_dll/mswu" />
+				</ResourceCompiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="libwxmsw30u_core.a" />
+					<Add library="libwxbase30u.a" />
+					<Add library="libwxpng.a" />
+					<Add library="libwxzlib.a" />
+					<Add directory="C:/wxWidgets-3.0.5/lib/gcc_dll" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-pipe" />
+			<Add option="-mthreads" />
+			<Add option="-D__GNUWIN32__" />
+			<Add option="-D__WXMSW__" />
+			<Add option="-DWXUSINGDLL" />
+			<Add option="-DwxUSE_UNICODE" />
+			<Add option="-Wall" />
+			<Add directory="C:/wxWidgets-3.0.5/include" />
+		</Compiler>
+		<ResourceCompiler>
+			<Add directory="C:/wxWidgets-3.0.5/include" />
+		</ResourceCompiler>
+		<Linker>
+			<Add option="-mthreads" />
+		</Linker>
+		<Unit filename="edycja.cpp" />
+		<Unit filename="edycja.h" />
+		<Unit filename="klient.cpp" />
+		<Unit filename="klient.h" />
+		<Unit filename="ksiegarniaApp.cpp" />
+		<Unit filename="ksiegarniaApp.h" />
+		<Unit filename="ksiegarniaMain.cpp" />
+		<Unit filename="ksiegarniaMain.h" />
+		<Unit filename="logowanie.cpp" />
+		<Unit filename="logowanie.h" />
+		<Unit filename="pracownik.cpp" />
+		<Unit filename="pracownik.h" />
+		<Unit filename="resource.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="wxsmith/edycja.wxs" />
+		<Unit filename="wxsmith/klient.wxs" />
+		<Unit filename="wxsmith/ksiegarniaframe.wxs" />
+		<Unit filename="wxsmith/logowanie.wxs" />
+		<Unit filename="wxsmith/pracownik.wxs" />
+		<Unit filename="wxsmith/zamawianie.wxs" />
+		<Unit filename="wxsmith/zamowienia.wxs" />
+		<Unit filename="zamawianie.cpp" />
+		<Unit filename="zamawianie.h" />
+		<Unit filename="zamowienia.cpp" />
+		<Unit filename="zamowienia.h" />
+		<Extensions>
+			<wxsmith version="1">
+				<gui name="wxWidgets" src="ksiegarniaApp.cpp" main="ksiegarniaFrame" init_handlers="necessary" language="CPP" />
+				<resources>
+					<wxFrame wxs="wxsmith/ksiegarniaframe.wxs" src="ksiegarniaMain.cpp" hdr="ksiegarniaMain.h" fwddecl="0" i18n="1" name="ksiegarniaFrame" language="CPP" />
+					<wxFrame wxs="wxsmith/klient.wxs" src="klient.cpp" hdr="klient.h" fwddecl="0" i18n="1" name="klient" language="CPP" />
+					<wxFrame wxs="wxsmith/logowanie.wxs" src="logowanie.cpp" hdr="logowanie.h" fwddecl="0" i18n="1" name="logowanie" language="CPP" />
+					<wxFrame wxs="wxsmith/pracownik.wxs" src="pracownik.cpp" hdr="pracownik.h" fwddecl="0" i18n="1" name="pracownik" language="CPP" />
+					<wxFrame wxs="wxsmith/edycja.wxs" src="edycja.cpp" hdr="edycja.h" fwddecl="0" i18n="1" name="edycja" language="CPP" />
+					<wxFrame wxs="wxsmith/zamawianie.wxs" src="zamawianie.cpp" hdr="zamawianie.h" fwddecl="0" i18n="1" name="zamawianie" language="CPP" />
+					<wxFrame wxs="wxsmith/zamowienia.wxs" src="zamowienia.cpp" hdr="zamowienia.h" fwddecl="0" i18n="1" name="zamowienia" language="CPP" />
+				</resources>
+			</wxsmith>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
